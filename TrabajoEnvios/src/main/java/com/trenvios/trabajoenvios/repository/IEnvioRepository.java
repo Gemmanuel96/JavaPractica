@@ -1,0 +1,9 @@
+package com.trenvios.trabajoenvios.repository;
+
+import com.trenvios.trabajoenvios.model.Envio;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface IEnvioRepository  extends JpaRepository<Envio,Long> {
+}
