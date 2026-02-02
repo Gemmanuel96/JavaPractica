@@ -1,0 +1,18 @@
+h1{ text-align: center;
+    box-sizing: border-box;
+    padding-top: 30px;
+    font-size: medium;
+    margin: 100px;
+    background-color: aquamarine;
+    width: 155px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+p{
+    box-sizing: border-box;
+    height: 200px;
+    width: 350px;
+    background-color: blue;
+    text-align: center;
+}

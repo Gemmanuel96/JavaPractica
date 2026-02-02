@@ -1,0 +1,12 @@
+body{
+    background: snow;
+}
+
+.card{
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}

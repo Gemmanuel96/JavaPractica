@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Ingrese datos</h1>
+    
+    <form>
+
+        <!-- for: direccionado al input con el id designado -->
+        <label for="usuario">Usuario:</label> 
+        <!-- id: para vincularlo con la Label -->
+        <input  type="user" id="usuario" placeholder="Ingrese Usuario">
+        <br>
+        <br>
+        <label for="contrasenia">Contraseña: </label>
+        <input type="password" id="contrasenia" placeholder="Ingrese Contraseña" required>
+        <!-- Label: nos permite conectarlo a un input -->
+        <!-- Placeholder: Ingresa texto fantasma en el input -->
+        <!-- required: Pide que el usuario si o si ingrese datos -->
+        <!-- maxLength: restringe a un maximo de caracteres -->
+        <!-- minLength: Pide un minimo de caracteres  -->
+        <!-- type=submit = nos da un botton -->
+        <br><br>
+
+
+        <!-- Botton -->
+        <input type="submit">
+        <!-- Color  -->
+        <input type="color">
+        <!-- Calendario -->
+        <input type="date">
+        <!-- Radio  -->
+        <label>
+            <input type="radio" name="horario">Matutino
+            <input type="radio" name="horario">Nocturno
+            <input type="radio" name="horario">Mixto
+        </label>
+        
+        <!-- CheckBox  -->
+        <label>
+            <h3>Acepta los terminos</h3>
+            <input type="checkbox">
+        </label>
+        
+        <!-- Caja de texto -->
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <br><br>
+        <!-- Reiniciar valores -->
+        <br><br>
+
+        <!-- Seleccion de vlaores -->
+        <select>
+            <option value="Argentina">Argentina</option>
+            <option value="MX">Mexico</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Alemania">Alemania</option>
+        </select>
+
+        <br><br>
+        <input type="reset" value="Reiniciar valores">
+    </form>
+   
+</body>
+</html>

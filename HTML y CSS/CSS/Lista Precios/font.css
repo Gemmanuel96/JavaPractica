@@ -1,0 +1,15 @@
+/* Como agregar fuentes externas a mi pagina web */
+
+@font-face {
+    font-family: "Google Sans";
+    src: url(Google_Sans/static/GoogleSans-Regular.ttf) format("truetype"); 
+    /*Le damos esta configuracion por si hay un navegador no es compatible*/
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Google Sans";
+    src: url(Google_Sans/static/GoogleSans-Medium.ttf) format("truetype"); 
+    /*Le damos esta configuracion por si hay un navegador no es compatible*/
+    font-weight: 500;
+}

@@ -1,0 +1,60 @@
+body{
+    font-family: Google Sans;
+    text-align: center;
+    margin: 10px;
+}
+
+.seccion{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0px auto;
+}
+
+.card{
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #dcd1d1;
+    margin:  30px auto;
+    height: 370px;
+    width: 250px;
+    border: 2px solid ;
+    box-shadow: 13px 10px 3px #918282;  /* Sombra: Positivo Derecha y abajo / Negativo Arriba e Izquirda*/
+
+}
+
+.plan{
+
+}
+
+.precio{
+    font-size: 45px;
+    margin: 10px;
+    color: rgb(45, 78, 188);
+}
+
+p{
+    text-align: center;
+    font-size: small;
+}
+
+a{
+
+    border: 3px solid #918282;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: x-large;
+    color: white;
+    background-color: salmon;
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
+
+
+@media (max-width: 700px){
+
+} 

@@ -1,0 +1,20 @@
+h1{
+    background-color: aquamarine;
+    font-style: italic;
+}
+
+h3{
+    color: rgba(214, 255, 103, 0.267);
+    background: brown;
+    text-align: center;
+}
+
+ul{
+    color: aqua;
+    background: greenyellow;
+}
+
+ol{
+    color: blueviolet;
+    background: teal;
+}
